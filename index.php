@@ -48,7 +48,7 @@ echo "<script type='text/javascript'> document.location = 'dashboard.php'; </scr
 
             <div class="">
                 <div class="row">
- <h1 align="center">For faculty and Academics Department</h1>
+ <h1 align="center">Student Result Management System</h1>
  <h2 align="center">ABV-IIITM Gwalior</h2>
                     <div class="col-lg-6 visible-lg-block">
 
@@ -72,6 +72,8 @@ echo "<script type='text/javascript'> document.location = 'dashboard.php'; </scr
                                                         <p align="center" class="sub-title">Only for existing students</p>
                                                     </div>
 
+<!--Starting of student login form -->
+
                                                     <form class="form-horizontal" method="post">
                                                         <div class="form-group">
                                                             <label for="inputEmail3" class="col-sm-6 control-label">Search your result</label>
@@ -79,8 +81,11 @@ echo "<script type='text/javascript'> document.location = 'dashboard.php'; </scr
                                                                <a href="find-result.php">click here</a>
                                                             </div>
                                                         </div>
-
                                                     </form>
+
+<!--Ending of student login form -->
+
+
                                                 </div>
                                             </div>
                                             <!-- /.panel -->
@@ -114,7 +119,7 @@ echo "<script type='text/javascript'> document.location = 'dashboard.php'; </scr
                                                 <div class="panel-body p-20">
 
                                                     <div class="section-title">
-                                                        <p class="sub-title">Student Result Management System</p>
+                                                        <p class="sub-title">For faculty and Academics Department</p>
                                                     </div>
 
                                                     <form class="form-horizontal" method="post">
@@ -138,10 +143,6 @@ echo "<script type='text/javascript'> document.location = 'dashboard.php'; </scr
                                                     		</div>
                                                     	</div>
                                                     </form>
-
-
-
-
                                                 </div>
                                             </div>
                                             <!-- /.panel -->
