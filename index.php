@@ -48,7 +48,7 @@ echo "<script type='text/javascript'> document.location = 'dashboard.php'; </scr
 
             <div class="">
                 <div class="row">
- <h1 align="center">Student Result Management System</h1>
+ <h1 align="center">For faculty and Academics Department</h1>
  <h2 align="center">ABV-IIITM Gwalior</h2>
                     <div class="col-lg-6 visible-lg-block">
 
