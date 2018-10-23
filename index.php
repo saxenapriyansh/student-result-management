@@ -73,15 +73,37 @@ echo "<script type='text/javascript'> document.location = 'dashboard.php'; </scr
                                                     </div>
 
 <!--Starting of student login form -->
+                                                <form action="result.php" method="post">
+                                                  <div class="form-group">
+                                                    <label for="rollid">Enter your Roll Id</label>
+                                                      <div>
+                                                        <input type="text" class="form-control" id="rollid" placeholder="Enter Your Roll Id" autocomplete="off" name="rollid">
+                                                      </div>
+                                                  </div>
+                                                  <div class="form-group">
+                                                    <label for="default" class="left">Class</label>
+                                                    <select name="class" class="form-control" id="default" required="required">
+                                                      <option value="">Select Class</option>
+                                                      <?php $sql = "SELECT * from tblclasses";
+                                                      $query = $dbh->prepare($sql);
+                                                      $query->execute();
+                                                      $results=$query->fetchAll(PDO::FETCH_OBJ);
+                                                      if($query->rowCount() > 0)
+                                                      {
+                                                        foreach($results as $result)
+                                                      {   ?>
+                                                      <option value="<?php echo htmlentities($result->id); ?>"><?php echo htmlentities($result->ClassName); ?>&nbsp; Section-<?php echo htmlentities($result->Section); ?></option>
+                                                      <?php }} ?>
+                                                    </select>
+                                                  </div>
 
-                                                    <form class="form-horizontal" method="post">
-                                                        <div class="form-group">
-                                                            <label for="inputEmail3" class="col-sm-6 control-label">Search your result</label>
-                                                            <div class="col-sm-6">
-                                                               <a href="find-result.php">click here</a>
-                                                            </div>
-                                                        </div>
-                                                    </form>
+                                                  <div class="form-group mt-20">
+                                                    <div class="">
+                                                      <button type="submit" class="btn btn-success btn-labeled pull-right">Search<span class="btn-label btn-label-right"><i class="fa fa-check"></i></span></button>
+                                                      <div class="clearfix"></div>
+                                                    </div>
+                                                  </div>
+                                                </form>
 
 <!--Ending of student login form -->
 
