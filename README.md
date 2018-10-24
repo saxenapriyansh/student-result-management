@@ -9,7 +9,6 @@ The system is intended for both the student and he teacher/academic section. The
 
 
 - Front-end:
-
   1. HTML- standard markup language for creating Web pages.
   2. CSS- a language that describes the style of an HTML document.
   3. JavaScript- programming language of HTML and the Web.
@@ -17,15 +16,12 @@ The system is intended for both the student and he teacher/academic section. The
   5. jQuery- a JavaScript Library which simplifies JavaScript programming.
 
 - Back-end:
-
    PHP- a server scripting language, and a powerful tool for making dynamic      and interactive web pages.
 
 - Database:
-
    My SQL- an open-source relational database management system.
 
 - Server:
-
    WAMP/XAMP Server- a software stack for the Microsoft Windows OS,              consisting of the Apache web server, OpenSSL for SSL support, MySQL          database and PHP programming language.
          
          
