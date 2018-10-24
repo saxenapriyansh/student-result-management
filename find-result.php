@@ -72,7 +72,7 @@ foreach($results as $result)
                             </div>
                         </div>
                         <!-- /.panel -->
-                        <p class="text-muted text-center"><small>Copyright © <a href="http://iiitm.ac.in/index.php/en/">ABV-IIITM</a> 2018</small></p>
+                        <p class="text-muted text-center"><small>Copyright © <a href="http://www.kasigaschool.com/">Kāsiga School</a> 2018</small></p>
                     </div>
                     <!-- /.col-md-6 col-md-offset-3 -->
                 </div>

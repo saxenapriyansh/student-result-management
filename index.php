@@ -49,7 +49,7 @@ echo "<script type='text/javascript'> document.location = 'dashboard.php'; </scr
             <div class="">
                 <div class="row">
  <h1 align="center">Student Result Management System</h1>
- <h2 align="center">ABV-IIITM Gwalior</h2>
+ <h2 align="center">KĀSIGA International</h2>
                     <div class="col-lg-6 visible-lg-block">
 
 <section class="section">
@@ -168,7 +168,7 @@ echo "<script type='text/javascript'> document.location = 'dashboard.php'; </scr
                                                 </div>
                                             </div>
                                             <!-- /.panel -->
-                                            <p class="text-muted text-center"><small>Copyright © Priyansh-Akshat | Hand crafted for <a href="http://iiitm.ac.in/index.php/en/">ABV-IIITM. </a></small> </p>
+                                            <p class="text-muted text-center"><small>Copyright © Priyansh-Akshat | Hand crafted for <a href="http://www.kasigaschool.com/">KĀSIGA International </a></small> </p>
                                         </div>
                                         <!-- /.col-md-11 -->
                                     </div>

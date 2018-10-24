@@ -1,8 +1,8 @@
 <div class="left-sidebar bg-black-300 box-shadow ">
                         <div class="sidebar-content">
                             <div class="user-info closed">
-                                <img src="images/iiitm_logo.png" alt="ABV-IIITM" height="52" width="52" class="img-circle profile-img">
-                                <h6 class="title">ABV-IIITM</h6>
+                                <img src="images/kasiga-school-logo.jpg" alt="Kāsiga School" height="52" width="52" class="img-circle profile-img">
+                                <h6 class="title">Kāsiga School</h6>
                                 <small class="info">Admin privilidges</small>
                             </div>
                             <!-- /.user-info -->
