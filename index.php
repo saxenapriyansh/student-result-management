@@ -49,9 +49,16 @@ echo "<script type='text/javascript'> document.location = 'dashboard.php'; </scr
             <div class="">
                 <div class="row">
  <h1 align="center">Student Result Management System</h1>
- <h2 align="center">KĀSIGA International</h2>
-                    <div class="col-lg-6 visible-lg-block">
+<div>
 
+  <h2 align="center"> <img src="images/kasiga-school-logo.jpg" alt="Kāsiga School" height="75" width="75"  class=" profile-img" border-radius="20px">
+   </img>
+    &nbsp;&nbsp;&nbsp;&nbsp;KĀSIGA International<br/>
+    <small font-size="1px" class="center">Copyright © Gaurav Kaushal | IT Project</small>
+   </h2>
+</div>
+
+<div class="col-lg-6 visible-lg-block">
 <section class="section">
 
   <!-- Student Login -->
